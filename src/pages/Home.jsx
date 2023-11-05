@@ -42,6 +42,7 @@ const Home = () => {
   }, []);
 
   const trackButtonClick = (buttonType) => {
+    
     setIsButtonClicked(prevState => [...prevState, buttonType]);
 
     const updatedSidebarActivity =

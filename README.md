@@ -1,8 +1,6 @@
-# React + Vite
+### Google Tag Manager Integration in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Seamless integration with Google Tag Manager (GTM).
+- Accurate event tracking for user interactions on buttons and links.
+- Limited support for unsubscribing events programmatically, I think that would need some custom logic. 
+- Offers a minimal representation of How GTM works within application
