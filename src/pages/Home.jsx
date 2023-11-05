@@ -3,10 +3,10 @@ import TagManager from "react-gtm-module";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 const Home = () => {
+    
   const [isButtonClicked, setIsButtonClicked] = useState([]);
-  console.log("🚀 ~ file: Home.jsx:7 ~ Home ~ isButtonClicked:", isButtonClicked)
   const [sidebarActivity, setSidebarActivity] = useState([]);
-  console.log("🚀 ~ file: Home.jsx:8 ~ Home ~ sidebarActivity:", sidebarActivity)
+
   useEffect(() => {
     const trackLinks = () => {
       const links = document.querySelectorAll("a");
@@ -57,7 +57,6 @@ const Home = () => {
       },
     });
     console.log(`Button clicked: ${buttonType}`);
-    // Any additional actions related to button clicks
   };
   return (
     <div className="container  py-5">
